@@ -1,7 +1,9 @@
 package com.example.lhanceadrianjrivera.riveradelossantosproject;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 public class OpeningPage extends AppCompatActivity {
 
@@ -9,5 +11,14 @@ public class OpeningPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.opening_page);
+    }
+    public void LogIn (View v) {
+        Intent i = new Intent(this, LoginPage.class);
+        startActivity(i);
+    }
+
+    public void SignUp (View v) {
+        Intent i = new Intent(this, SignUpPage.class);
+        startActivity(i);
     }
 }

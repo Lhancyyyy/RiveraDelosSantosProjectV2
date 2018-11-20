@@ -5,15 +5,15 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class LoginPage extends AppCompatActivity {
+public class TriviaGuidedImagery extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_page);
+        setContentView(R.layout.trivia_guided_imagery);
     }
 
-    public void LogIn (View v) {
+    public void Back (View v) {
         Intent i = new Intent(this, HealthActivity.class);
         startActivity(i);
     }
