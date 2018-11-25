@@ -21,4 +21,6 @@ public class OpeningPage extends AppCompatActivity {
         Intent i = new Intent(this, SignUpPage.class);
         startActivity(i);
     }
+
+
 }

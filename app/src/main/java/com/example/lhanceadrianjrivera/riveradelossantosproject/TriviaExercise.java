@@ -13,7 +13,7 @@ public class TriviaExercise extends AppCompatActivity {
         setContentView(R.layout.trivia_exercise);
     }
 
-    public void Back (View v) {
+    public void onBackClick (View v) {
         Intent i = new Intent(this, HealthActivity.class);
         startActivity(i);
     }

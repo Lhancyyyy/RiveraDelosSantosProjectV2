@@ -47,7 +47,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/Bsignupbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -56,13 +56,14 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:onClick="onSignupClick"
             android:text="SIGN UP"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.785"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.608" />
+            app:layout_constraintVertical_bias="0.625" />
 
         <TextView
             android:id="@+id/textView8"
@@ -86,7 +87,7 @@
             app:layout_constraintVertical_bias="0.008" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/TFuname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -105,7 +106,7 @@
             app:layout_constraintVertical_bias="0.262" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/TFemail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -166,7 +167,7 @@
             app:layout_constraintVertical_bias="0.298" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/TFpass2"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -185,7 +186,7 @@
             app:layout_constraintVertical_bias="0.468" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/TFpass1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -220,5 +221,24 @@
             app:layout_constraintHorizontal_bias="0.03"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="onBackButton"
+            android:text="BACK"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.273"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.625" />
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>

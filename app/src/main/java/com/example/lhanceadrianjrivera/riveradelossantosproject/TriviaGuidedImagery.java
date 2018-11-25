@@ -13,7 +13,7 @@ public class TriviaGuidedImagery extends AppCompatActivity {
         setContentView(R.layout.trivia_guided_imagery);
     }
 
-    public void Back (View v) {
+    public void onbackClick (View v) {
         Intent i = new Intent(this, HealthActivity.class);
         startActivity(i);
     }

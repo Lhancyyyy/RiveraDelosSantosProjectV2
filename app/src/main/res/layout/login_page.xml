@@ -47,19 +47,41 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="193dp"
-            android:layout_marginEnd="162dp"
+            android:layout_marginEnd="80dp"
             android:layout_marginLeft="161dp"
-            android:layout_marginRight="162dp"
+            android:layout_marginRight="80dp"
             android:layout_marginStart="161dp"
             android:layout_marginTop="74dp"
+            android:onClick="buttonLoginClick"
             android:text="Login"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            app:layout_constraintTop_toBottomOf="@+id/ETpass"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="193dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="162dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="74dp"
+            android:onClick="backButton"
+            android:text="BACK"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ETpass"
+            app:layout_constraintVertical_bias="0.0" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/ETuname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -120,7 +142,7 @@
             app:layout_constraintVertical_bias="0.446" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/ETpass"
             android:layout_width="214dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"

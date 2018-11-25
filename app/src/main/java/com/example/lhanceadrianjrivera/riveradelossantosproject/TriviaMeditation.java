@@ -13,7 +13,7 @@ public class TriviaMeditation extends AppCompatActivity {
         setContentView(R.layout.trivia_meditation);
     }
 
-    public void Back (View v) {
+    public void backOnClick (View v) {
         Intent i = new Intent(this, HealthActivity.class);
         startActivity(i);
     }

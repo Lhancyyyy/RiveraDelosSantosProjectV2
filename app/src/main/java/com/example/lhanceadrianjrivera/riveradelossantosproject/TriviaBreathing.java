@@ -13,7 +13,7 @@ public class TriviaBreathing extends AppCompatActivity {
         setContentView(R.layout.trivia_breathing);
     }
 
-    public void Back (View v) {
+    public void onClickback (View v) {
         Intent i = new Intent(this, HealthActivity.class);
         startActivity(i);
     }
